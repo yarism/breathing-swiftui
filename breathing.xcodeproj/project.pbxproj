@@ -1,0 +1,819 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2318A28828A908A70054FC28 /* breathing WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2318A28728A908A70054FC28 /* breathing WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2318A28D28A908A80054FC28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2318A28C28A908A80054FC28 /* Assets.xcassets */; };
+		2318A29328A908A80054FC28 /* breathing WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2318A29228A908A80054FC28 /* breathing WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2318A29828A908A80054FC28 /* breathingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2318A29728A908A80054FC28 /* breathingApp.swift */; };
+		2318A29A28A908A80054FC28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2318A29928A908A80054FC28 /* ContentView.swift */; };
+		2318A29C28A908A80054FC28 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2318A29B28A908A80054FC28 /* NotificationController.swift */; };
+		2318A29E28A908A80054FC28 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2318A29D28A908A80054FC28 /* NotificationView.swift */; };
+		2318A2A028A908A80054FC28 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2318A29F28A908A80054FC28 /* ComplicationController.swift */; };
+		2318A2A228A908A90054FC28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2318A2A128A908A90054FC28 /* Assets.xcassets */; };
+		2318A2A528A908A90054FC28 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2318A2A428A908A90054FC28 /* Preview Assets.xcassets */; };
+		2318A2B128A908A90054FC28 /* breathingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2318A2B028A908A90054FC28 /* breathingTests.swift */; };
+		2318A2BB28A908A90054FC28 /* breathingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2318A2BA28A908A90054FC28 /* breathingUITests.swift */; };
+		2318A2BD28A908A90054FC28 /* breathingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2318A2BC28A908A90054FC28 /* breathingUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2318A28928A908A70054FC28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2318A27D28A908A70054FC28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2318A28628A908A70054FC28;
+			remoteInfo = "breathing WatchKit App";
+		};
+		2318A29428A908A80054FC28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2318A27D28A908A70054FC28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2318A29128A908A80054FC28;
+			remoteInfo = "breathing WatchKit Extension";
+		};
+		2318A2AD28A908A90054FC28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2318A27D28A908A70054FC28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2318A29128A908A80054FC28;
+			remoteInfo = "breathing WatchKit Extension";
+		};
+		2318A2B728A908A90054FC28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2318A27D28A908A70054FC28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2318A28628A908A70054FC28;
+			remoteInfo = "breathing WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2318A2C328A908A90054FC28 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2318A29328A908A80054FC28 /* breathing WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2318A2C728A908A90054FC28 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				2318A28828A908A70054FC28 /* breathing WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2318A28328A908A70054FC28 /* breathing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = breathing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2318A28728A908A70054FC28 /* breathing WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "breathing WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2318A28C28A908A80054FC28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2318A29228A908A80054FC28 /* breathing WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "breathing WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2318A29728A908A80054FC28 /* breathingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = breathingApp.swift; sourceTree = "<group>"; };
+		2318A29928A908A80054FC28 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2318A29B28A908A80054FC28 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		2318A29D28A908A80054FC28 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		2318A29F28A908A80054FC28 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		2318A2A128A908A90054FC28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2318A2A428A908A90054FC28 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2318A2A628A908A90054FC28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2318A2A728A908A90054FC28 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		2318A2AC28A908A90054FC28 /* breathingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = breathingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2318A2B028A908A90054FC28 /* breathingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = breathingTests.swift; sourceTree = "<group>"; };
+		2318A2B628A908A90054FC28 /* breathingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = breathingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2318A2BA28A908A90054FC28 /* breathingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = breathingUITests.swift; sourceTree = "<group>"; };
+		2318A2BC28A908A90054FC28 /* breathingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = breathingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2318A28F28A908A80054FC28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2318A2A928A908A90054FC28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2318A2B328A908A90054FC28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2318A27C28A908A70054FC28 = {
+			isa = PBXGroup;
+			children = (
+				2318A28B28A908A70054FC28 /* breathing WatchKit App */,
+				2318A29628A908A80054FC28 /* breathing WatchKit Extension */,
+				2318A2AF28A908A90054FC28 /* breathingTests */,
+				2318A2B928A908A90054FC28 /* breathingUITests */,
+				2318A28428A908A70054FC28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2318A28428A908A70054FC28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2318A28328A908A70054FC28 /* breathing.app */,
+				2318A28728A908A70054FC28 /* breathing WatchKit App.app */,
+				2318A29228A908A80054FC28 /* breathing WatchKit Extension.appex */,
+				2318A2AC28A908A90054FC28 /* breathingTests.xctest */,
+				2318A2B628A908A90054FC28 /* breathingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2318A28B28A908A70054FC28 /* breathing WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				2318A28C28A908A80054FC28 /* Assets.xcassets */,
+			);
+			path = "breathing WatchKit App";
+			sourceTree = "<group>";
+		};
+		2318A29628A908A80054FC28 /* breathing WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2318A29728A908A80054FC28 /* breathingApp.swift */,
+				2318A29928A908A80054FC28 /* ContentView.swift */,
+				2318A29B28A908A80054FC28 /* NotificationController.swift */,
+				2318A29D28A908A80054FC28 /* NotificationView.swift */,
+				2318A29F28A908A80054FC28 /* ComplicationController.swift */,
+				2318A2A128A908A90054FC28 /* Assets.xcassets */,
+				2318A2A628A908A90054FC28 /* Info.plist */,
+				2318A2A728A908A90054FC28 /* PushNotificationPayload.apns */,
+				2318A2A328A908A90054FC28 /* Preview Content */,
+			);
+			path = "breathing WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		2318A2A328A908A90054FC28 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2318A2A428A908A90054FC28 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2318A2AF28A908A90054FC28 /* breathingTests */ = {
+			isa = PBXGroup;
+			children = (
+				2318A2B028A908A90054FC28 /* breathingTests.swift */,
+			);
+			path = breathingTests;
+			sourceTree = "<group>";
+		};
+		2318A2B928A908A90054FC28 /* breathingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2318A2BA28A908A90054FC28 /* breathingUITests.swift */,
+				2318A2BC28A908A90054FC28 /* breathingUITestsLaunchTests.swift */,
+			);
+			path = breathingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2318A28228A908A70054FC28 /* breathing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2318A2C828A908A90054FC28 /* Build configuration list for PBXNativeTarget "breathing" */;
+			buildPhases = (
+				2318A28128A908A70054FC28 /* Resources */,
+				2318A2C728A908A90054FC28 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2318A28A28A908A70054FC28 /* PBXTargetDependency */,
+			);
+			name = breathing;
+			productName = breathing;
+			productReference = 2318A28328A908A70054FC28 /* breathing.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		2318A28628A908A70054FC28 /* breathing WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2318A2C428A908A90054FC28 /* Build configuration list for PBXNativeTarget "breathing WatchKit App" */;
+			buildPhases = (
+				2318A28528A908A70054FC28 /* Resources */,
+				2318A2C328A908A90054FC28 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2318A29528A908A80054FC28 /* PBXTargetDependency */,
+			);
+			name = "breathing WatchKit App";
+			productName = "breathing WatchKit App";
+			productReference = 2318A28728A908A70054FC28 /* breathing WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		2318A29128A908A80054FC28 /* breathing WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2318A2C028A908A90054FC28 /* Build configuration list for PBXNativeTarget "breathing WatchKit Extension" */;
+			buildPhases = (
+				2318A28E28A908A80054FC28 /* Sources */,
+				2318A28F28A908A80054FC28 /* Frameworks */,
+				2318A29028A908A80054FC28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "breathing WatchKit Extension";
+			productName = "breathing WatchKit Extension";
+			productReference = 2318A29228A908A80054FC28 /* breathing WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		2318A2AB28A908A90054FC28 /* breathingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2318A2CB28A908A90054FC28 /* Build configuration list for PBXNativeTarget "breathingTests" */;
+			buildPhases = (
+				2318A2A828A908A90054FC28 /* Sources */,
+				2318A2A928A908A90054FC28 /* Frameworks */,
+				2318A2AA28A908A90054FC28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2318A2AE28A908A90054FC28 /* PBXTargetDependency */,
+			);
+			name = breathingTests;
+			productName = breathingTests;
+			productReference = 2318A2AC28A908A90054FC28 /* breathingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2318A2B528A908A90054FC28 /* breathingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2318A2CE28A908A90054FC28 /* Build configuration list for PBXNativeTarget "breathingUITests" */;
+			buildPhases = (
+				2318A2B228A908A90054FC28 /* Sources */,
+				2318A2B328A908A90054FC28 /* Frameworks */,
+				2318A2B428A908A90054FC28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2318A2B828A908A90054FC28 /* PBXTargetDependency */,
+			);
+			name = breathingUITests;
+			productName = breathingUITests;
+			productReference = 2318A2B628A908A90054FC28 /* breathingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2318A27D28A908A70054FC28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					2318A28228A908A70054FC28 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					2318A28628A908A70054FC28 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					2318A29128A908A80054FC28 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					2318A2AB28A908A90054FC28 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 2318A29128A908A80054FC28;
+					};
+					2318A2B528A908A90054FC28 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 2318A28628A908A70054FC28;
+					};
+				};
+			};
+			buildConfigurationList = 2318A28028A908A70054FC28 /* Build configuration list for PBXProject "breathing" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2318A27C28A908A70054FC28;
+			productRefGroup = 2318A28428A908A70054FC28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2318A28228A908A70054FC28 /* breathing */,
+				2318A28628A908A70054FC28 /* breathing WatchKit App */,
+				2318A29128A908A80054FC28 /* breathing WatchKit Extension */,
+				2318A2AB28A908A90054FC28 /* breathingTests */,
+				2318A2B528A908A90054FC28 /* breathingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2318A28128A908A70054FC28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2318A28528A908A70054FC28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2318A28D28A908A80054FC28 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2318A29028A908A80054FC28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2318A2A528A908A90054FC28 /* Preview Assets.xcassets in Resources */,
+				2318A2A228A908A90054FC28 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2318A2AA28A908A90054FC28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2318A2B428A908A90054FC28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2318A28E28A908A80054FC28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2318A29C28A908A80054FC28 /* NotificationController.swift in Sources */,
+				2318A29A28A908A80054FC28 /* ContentView.swift in Sources */,
+				2318A2A028A908A80054FC28 /* ComplicationController.swift in Sources */,
+				2318A29828A908A80054FC28 /* breathingApp.swift in Sources */,
+				2318A29E28A908A80054FC28 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2318A2A828A908A90054FC28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2318A2B128A908A90054FC28 /* breathingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2318A2B228A908A90054FC28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2318A2BB28A908A90054FC28 /* breathingUITests.swift in Sources */,
+				2318A2BD28A908A90054FC28 /* breathingUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2318A28A28A908A70054FC28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2318A28628A908A70054FC28 /* breathing WatchKit App */;
+			targetProxy = 2318A28928A908A70054FC28 /* PBXContainerItemProxy */;
+		};
+		2318A29528A908A80054FC28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2318A29128A908A80054FC28 /* breathing WatchKit Extension */;
+			targetProxy = 2318A29428A908A80054FC28 /* PBXContainerItemProxy */;
+		};
+		2318A2AE28A908A90054FC28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2318A29128A908A80054FC28 /* breathing WatchKit Extension */;
+			targetProxy = 2318A2AD28A908A90054FC28 /* PBXContainerItemProxy */;
+		};
+		2318A2B828A908A90054FC28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2318A28628A908A70054FC28 /* breathing WatchKit App */;
+			targetProxy = 2318A2B728A908A90054FC28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2318A2BE28A908A90054FC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2318A2BF28A908A90054FC28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2318A2C128A908A90054FC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"breathing WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "breathing WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "breathing WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.breathing.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		2318A2C228A908A90054FC28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"breathing WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "breathing WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "breathing WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.breathing.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		2318A2C528A908A90054FC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = breathing_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "breathing WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.breathing.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		2318A2C628A908A90054FC28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = breathing_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "breathing WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.breathing.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		2318A2C928A908A90054FC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.breathing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2318A2CA28A908A90054FC28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.breathing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2318A2CC28A908A90054FC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.breathingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/breathing WatchKit Extension.appex/breathing WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		2318A2CD28A908A90054FC28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.breathingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/breathing WatchKit Extension.appex/breathing WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		2318A2CF28A908A90054FC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.breathingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "breathing WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		2318A2D028A908A90054FC28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.breathingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "breathing WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2318A28028A908A70054FC28 /* Build configuration list for PBXProject "breathing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2318A2BE28A908A90054FC28 /* Debug */,
+				2318A2BF28A908A90054FC28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2318A2C028A908A90054FC28 /* Build configuration list for PBXNativeTarget "breathing WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2318A2C128A908A90054FC28 /* Debug */,
+				2318A2C228A908A90054FC28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2318A2C428A908A90054FC28 /* Build configuration list for PBXNativeTarget "breathing WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2318A2C528A908A90054FC28 /* Debug */,
+				2318A2C628A908A90054FC28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2318A2C828A908A90054FC28 /* Build configuration list for PBXNativeTarget "breathing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2318A2C928A908A90054FC28 /* Debug */,
+				2318A2CA28A908A90054FC28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2318A2CB28A908A90054FC28 /* Build configuration list for PBXNativeTarget "breathingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2318A2CC28A908A90054FC28 /* Debug */,
+				2318A2CD28A908A90054FC28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2318A2CE28A908A90054FC28 /* Build configuration list for PBXNativeTarget "breathingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2318A2CF28A908A90054FC28 /* Debug */,
+				2318A2D028A908A90054FC28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2318A27D28A908A70054FC28 /* Project object */;
+}
