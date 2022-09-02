@@ -20,6 +20,7 @@
 		2318A2B128A908A90054FC28 /* breathingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2318A2B028A908A90054FC28 /* breathingTests.swift */; };
 		2318A2BB28A908A90054FC28 /* breathingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2318A2BA28A908A90054FC28 /* breathingUITests.swift */; };
 		2318A2BD28A908A90054FC28 /* breathingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2318A2BC28A908A90054FC28 /* breathingUITestsLaunchTests.swift */; };
+		23AF508528C1E7A300531DC5 /* CircleOfLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AF508428C1E7A300531DC5 /* CircleOfLife.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +98,7 @@
 		2318A2B628A908A90054FC28 /* breathingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = breathingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2318A2BA28A908A90054FC28 /* breathingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = breathingUITests.swift; sourceTree = "<group>"; };
 		2318A2BC28A908A90054FC28 /* breathingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = breathingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		23AF508428C1E7A300531DC5 /* CircleOfLife.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleOfLife.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 		2318A29628A908A80054FC28 /* breathing WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				23AF508328C1E71F00531DC5 /* Views */,
 				2318A29728A908A80054FC28 /* breathingApp.swift */,
 				2318A29928A908A80054FC28 /* ContentView.swift */,
 				2318A29B28A908A80054FC28 /* NotificationController.swift */,
@@ -194,6 +197,14 @@
 				2318A2BC28A908A90054FC28 /* breathingUITestsLaunchTests.swift */,
 			);
 			path = breathingUITests;
+			sourceTree = "<group>";
+		};
+		23AF508328C1E71F00531DC5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				23AF508428C1E7A300531DC5 /* CircleOfLife.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -387,6 +398,7 @@
 				2318A29A28A908A80054FC28 /* ContentView.swift in Sources */,
 				2318A2A028A908A80054FC28 /* ComplicationController.swift in Sources */,
 				2318A29828A908A80054FC28 /* breathingApp.swift in Sources */,
+				23AF508528C1E7A300531DC5 /* CircleOfLife.swift in Sources */,
 				2318A29E28A908A80054FC28 /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
