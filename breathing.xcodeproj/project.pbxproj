@@ -11,7 +11,6 @@
 		2318A28D28A908A80054FC28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2318A28C28A908A80054FC28 /* Assets.xcassets */; };
 		2318A29328A908A80054FC28 /* breathing WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2318A29228A908A80054FC28 /* breathing WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2318A29828A908A80054FC28 /* breathingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2318A29728A908A80054FC28 /* breathingApp.swift */; };
-		2318A29A28A908A80054FC28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2318A29928A908A80054FC28 /* ContentView.swift */; };
 		2318A29C28A908A80054FC28 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2318A29B28A908A80054FC28 /* NotificationController.swift */; };
 		2318A29E28A908A80054FC28 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2318A29D28A908A80054FC28 /* NotificationView.swift */; };
 		2318A2A028A908A80054FC28 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2318A29F28A908A80054FC28 /* ComplicationController.swift */; };
@@ -85,7 +84,6 @@
 		2318A28C28A908A80054FC28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2318A29228A908A80054FC28 /* breathing WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "breathing WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2318A29728A908A80054FC28 /* breathingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = breathingApp.swift; sourceTree = "<group>"; };
-		2318A29928A908A80054FC28 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2318A29B28A908A80054FC28 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		2318A29D28A908A80054FC28 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		2318A29F28A908A80054FC28 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
@@ -162,7 +160,6 @@
 			children = (
 				23AF508328C1E71F00531DC5 /* Views */,
 				2318A29728A908A80054FC28 /* breathingApp.swift */,
-				2318A29928A908A80054FC28 /* ContentView.swift */,
 				2318A29B28A908A80054FC28 /* NotificationController.swift */,
 				2318A29D28A908A80054FC28 /* NotificationView.swift */,
 				2318A29F28A908A80054FC28 /* ComplicationController.swift */,
@@ -395,7 +392,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2318A29C28A908A80054FC28 /* NotificationController.swift in Sources */,
-				2318A29A28A908A80054FC28 /* ContentView.swift in Sources */,
 				2318A2A028A908A80054FC28 /* ComplicationController.swift in Sources */,
 				2318A29828A908A80054FC28 /* breathingApp.swift in Sources */,
 				23AF508528C1E7A300531DC5 /* CircleOfLife.swift in Sources */,
