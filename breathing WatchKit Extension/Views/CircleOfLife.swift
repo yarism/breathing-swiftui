@@ -50,6 +50,6 @@ struct CircleOfLife: View {
 
 struct CircleOfLife_Previews: PreviewProvider {
     static var previews: some View {
-        CircleOfLife()
+        CircleOfLife().environmentObject(ModelData())
     }
 }

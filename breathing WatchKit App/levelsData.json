@@ -1,0 +1,38 @@
+[
+    {
+        "name": "beginner",
+        "inhale": 3000,
+        "exhale": 3000,
+        "duration": 60000
+    },
+    {
+        "name": "medium",
+        "inhale": 4000,
+        "exhale": 4000,
+        "duration": 60000
+    },
+    {
+        "name": "medium+",
+        "inhale": 4000,
+        "exhale": 4000,
+        "duration": 120000
+    },
+    {
+        "name": "perfect breath",
+        "inhale": 5500,
+        "exhale": 5500,
+        "duration": 120000
+    },
+    {
+        "name": "perfect breath+",
+        "inhale": 5500,
+        "exhale": 5500,
+        "duration": 300000
+    },
+    {
+        "name": "perfect breath infinity",
+        "inhale": 5500,
+        "exhale": 5500,
+        "duration": 3600000
+    }
+]
