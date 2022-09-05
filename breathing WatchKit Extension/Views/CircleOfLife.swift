@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct CircleOfLife: View {
+    //@Binding var level: Level
     @State private var isAnimating = false
     let radius: CGFloat = 100
     let pi = Double.pi
@@ -44,12 +45,11 @@ struct CircleOfLife: View {
                 
             }
         }
-
     }
 }
 
 struct CircleOfLife_Previews: PreviewProvider {
     static var previews: some View {
-        CircleOfLife().environmentObject(ModelData())
+        CircleOfLife()
     }
 }

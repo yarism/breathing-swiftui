@@ -9,8 +9,7 @@ import Foundation
 import Foundation
 import SwiftUI
 
-struct Landmark: Hashable, Identifiable {
-    var id: Int
+struct Level: Hashable, Decodable {
     var name: String
     var inhale: Int
     var exhale: Int

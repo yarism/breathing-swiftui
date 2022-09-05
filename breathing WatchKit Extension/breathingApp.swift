@@ -12,7 +12,7 @@ struct breathingApp: App {
     @SceneBuilder var body: some Scene {
         WindowGroup {
             NavigationView {
-                CircleOfLife()
+                Tabs()
             }
         }
 
