@@ -13,7 +13,7 @@ struct Tabs: View {
     var body: some View {
         TabView {
             ForEach(levelModel.levels, id: \.self) { level in
-                CircleOfLife()
+                CircleOfLife(level: level)
             }
         }.tabViewStyle(PageTabViewStyle())
     }

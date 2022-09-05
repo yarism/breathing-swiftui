@@ -8,23 +8,26 @@
 import SwiftUI
 
 struct CircleOfLife: View {
-    //@Binding var level: Level
     @State private var isAnimating = false
+    let level: Level
     let radius: CGFloat = 100
     let pi = Double.pi
     let dotCount = 10
     let dotLength: CGFloat = 5
     let spaceLength: CGFloat
     
-    init() {
+    init(level: Level) {
+        self.level = level
         let circumerence: CGFloat = CGFloat(2.0 * pi) * radius
         spaceLength = circumerence / CGFloat(dotCount) - dotLength
     }
+
 
     var body: some View {
         VStack {
             Spacer()
             Spacer()
+            Text(level.name)
             ZStack {
                 Image(systemName: "heart.fill")
                     .foregroundColor(Color.blue)
@@ -49,7 +52,9 @@ struct CircleOfLife: View {
 }
 
 struct CircleOfLife_Previews: PreviewProvider {
+    
+    static let easy = Level(name: "Easy", inhale: 3000, exhale: 3000, duration: 60000)
     static var previews: some View {
-        CircleOfLife()
+        CircleOfLife(level: easy)
     }
 }
