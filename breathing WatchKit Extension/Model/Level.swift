@@ -11,7 +11,7 @@ import SwiftUI
 
 struct Level: Hashable, Decodable {
     var name: String
-    var inhale: Int
-    var exhale: Int
-    var duration: Int
+    var inhale: Double
+    var exhale: Double
+    var duration: Double
 }

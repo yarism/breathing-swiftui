@@ -20,6 +20,7 @@
 		2318A2BB28A908A90054FC28 /* breathingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2318A2BA28A908A90054FC28 /* breathingUITests.swift */; };
 		2318A2BD28A908A90054FC28 /* breathingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2318A2BC28A908A90054FC28 /* breathingUITestsLaunchTests.swift */; };
 		2348117C28C5E39B00910D83 /* Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2348117B28C5E39B00910D83 /* Tabs.swift */; };
+		2348118428C6240100910D83 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2348118328C6240100910D83 /* Time.swift */; };
 		23AF508528C1E7A300531DC5 /* CircleOfLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AF508428C1E7A300531DC5 /* CircleOfLife.swift */; };
 		23AF508A28C2269200531DC5 /* levelsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 23AF508928C2269200531DC5 /* levelsData.json */; };
 		23AF508C28C2272600531DC5 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AF508B28C2272600531DC5 /* ModelData.swift */; };
@@ -101,6 +102,7 @@
 		2318A2BA28A908A90054FC28 /* breathingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = breathingUITests.swift; sourceTree = "<group>"; };
 		2318A2BC28A908A90054FC28 /* breathingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = breathingUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2348117B28C5E39B00910D83 /* Tabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabs.swift; sourceTree = "<group>"; };
+		2348118328C6240100910D83 /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
 		23AF508428C1E7A300531DC5 /* CircleOfLife.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleOfLife.swift; sourceTree = "<group>"; };
 		23AF508928C2269200531DC5 /* levelsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = levelsData.json; path = "breathing WatchKit App/levelsData.json"; sourceTree = SOURCE_ROOT; };
 		23AF508B28C2272600531DC5 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ModelData.swift; path = "breathing WatchKit Extension/Model/ModelData.swift"; sourceTree = SOURCE_ROOT; };
@@ -166,6 +168,7 @@
 		2318A29628A908A80054FC28 /* breathing WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				2348118228C623F400910D83 /* Helpers */,
 				23AF508F28C22E6100531DC5 /* Model */,
 				23AF508828C225B400531DC5 /* Resources */,
 				23AF508328C1E71F00531DC5 /* Views */,
@@ -204,6 +207,14 @@
 				2318A2BC28A908A90054FC28 /* breathingUITestsLaunchTests.swift */,
 			);
 			path = breathingUITests;
+			sourceTree = "<group>";
+		};
+		2348118228C623F400910D83 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2348118328C6240100910D83 /* Time.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		23AF508328C1E71F00531DC5 /* Views */ = {
@@ -426,6 +437,7 @@
 				2318A29828A908A80054FC28 /* breathingApp.swift in Sources */,
 				23AF508528C1E7A300531DC5 /* CircleOfLife.swift in Sources */,
 				2318A29E28A908A80054FC28 /* NotificationView.swift in Sources */,
+				2348118428C6240100910D83 /* Time.swift in Sources */,
 				23AF508C28C2272600531DC5 /* ModelData.swift in Sources */,
 				2348117C28C5E39B00910D83 /* Tabs.swift in Sources */,
 			);
