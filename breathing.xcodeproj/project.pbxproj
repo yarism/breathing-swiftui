@@ -21,6 +21,9 @@
 		2318A2BD28A908A90054FC28 /* breathingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2318A2BC28A908A90054FC28 /* breathingUITestsLaunchTests.swift */; };
 		2348117C28C5E39B00910D83 /* Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2348117B28C5E39B00910D83 /* Tabs.swift */; };
 		2348118428C6240100910D83 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2348118328C6240100910D83 /* Time.swift */; };
+		239DD7F028C75E3600CAA79D /* Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239DD7EF28C75E3600CAA79D /* Intro.swift */; };
+		239DD7F228C75ECA00CAA79D /* EndCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239DD7F128C75ECA00CAA79D /* EndCircle.swift */; };
+		239DD7F428CA034F00CAA79D /* Experiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239DD7F328CA034F00CAA79D /* Experiment.swift */; };
 		23AF508528C1E7A300531DC5 /* CircleOfLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AF508428C1E7A300531DC5 /* CircleOfLife.swift */; };
 		23AF508A28C2269200531DC5 /* levelsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 23AF508928C2269200531DC5 /* levelsData.json */; };
 		23AF508C28C2272600531DC5 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AF508B28C2272600531DC5 /* ModelData.swift */; };
@@ -103,6 +106,9 @@
 		2318A2BC28A908A90054FC28 /* breathingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = breathingUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2348117B28C5E39B00910D83 /* Tabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabs.swift; sourceTree = "<group>"; };
 		2348118328C6240100910D83 /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		239DD7EF28C75E3600CAA79D /* Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro.swift; sourceTree = "<group>"; };
+		239DD7F128C75ECA00CAA79D /* EndCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndCircle.swift; sourceTree = "<group>"; };
+		239DD7F328CA034F00CAA79D /* Experiment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experiment.swift; sourceTree = "<group>"; };
 		23AF508428C1E7A300531DC5 /* CircleOfLife.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleOfLife.swift; sourceTree = "<group>"; };
 		23AF508928C2269200531DC5 /* levelsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = levelsData.json; path = "breathing WatchKit App/levelsData.json"; sourceTree = SOURCE_ROOT; };
 		23AF508B28C2272600531DC5 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ModelData.swift; path = "breathing WatchKit Extension/Model/ModelData.swift"; sourceTree = SOURCE_ROOT; };
@@ -221,7 +227,10 @@
 			isa = PBXGroup;
 			children = (
 				23AF508428C1E7A300531DC5 /* CircleOfLife.swift */,
+				239DD7F128C75ECA00CAA79D /* EndCircle.swift */,
 				2348117B28C5E39B00910D83 /* Tabs.swift */,
+				239DD7EF28C75E3600CAA79D /* Intro.swift */,
+				239DD7F328CA034F00CAA79D /* Experiment.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -431,6 +440,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				239DD7F428CA034F00CAA79D /* Experiment.swift in Sources */,
+				239DD7F028C75E3600CAA79D /* Intro.swift in Sources */,
+				239DD7F228C75ECA00CAA79D /* EndCircle.swift in Sources */,
 				2318A29C28A908A80054FC28 /* NotificationController.swift in Sources */,
 				23AF509128C23E3700531DC5 /* Level.swift in Sources */,
 				2318A2A028A908A80054FC28 /* ComplicationController.swift in Sources */,

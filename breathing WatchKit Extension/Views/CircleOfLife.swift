@@ -26,7 +26,7 @@ struct CircleOfLife: View {
         let circumerence: CGFloat = CGFloat(2.0 * pi) * radius
         spaceLength = circumerence / CGFloat(dotCount) - dotLength
     }
-
+    
     var body: some View {
         VStack {
             Spacer()
@@ -44,14 +44,7 @@ struct CircleOfLife: View {
                     .stroke(themeColor, style: StrokeStyle(lineWidth: 15))
                     .rotationEffect(.init(degrees: -90))
                     .onAppear(perform: {
-                        withAnimation(.linear(duration: level.inhale.msToSeconds).delay(delayAnimation)) {
-                            endAnimation = 1
-                            themeColor = Color.blue
-                        }
-                        withAnimation(.linear(duration: level.inhale.msToSeconds).delay(level.inhale.msToSeconds + delayAnimation)) {
-                            startAnimation = 1
-                            themeColor = Color.orange
-                        }
+                        animate()
                     })
                     .onDisappear(perform: {
                         startAnimation = 0
@@ -61,6 +54,18 @@ struct CircleOfLife: View {
             }
         }
     }
+    
+    private func animate() {
+        withAnimation(.linear(duration: level.inhale.msToSeconds).delay(delayAnimation)) {
+            endAnimation = 1
+            themeColor = Color.blue
+        }
+        withAnimation(.linear(duration: level.inhale.msToSeconds).delay(level.inhale.msToSeconds + delayAnimation)) {
+            startAnimation = 1
+            themeColor = Color.orange
+        }
+    }
+
 }
 
 struct CircleOfLife_Previews: PreviewProvider {

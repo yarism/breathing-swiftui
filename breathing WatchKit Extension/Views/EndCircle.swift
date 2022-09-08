@@ -1,13 +1,13 @@
 //
-//  Intro.swift
+//  EndCircle.swift
 //  breathing WatchKit Extension
 //
-//  Created by Joakim Johansson on 2022-09-06.
+//  Created by Joakim Johansson on 2022-09-02.
 //
 
 import SwiftUI
 
-struct Intro: View {
+struct EndCircle: View {
     @State private var isAnimating = false
     @State private var startAnimation: Double = 0
     @State private var endAnimation: Double = 0
@@ -43,7 +43,6 @@ struct Intro: View {
                     .rotationEffect(.init(degrees: -90))
                     .onAppear(perform: {
                         animate()
-                        animate()
                     })
                     .onDisappear(perform: {
                         startAnimation = 0
@@ -68,8 +67,8 @@ struct Intro: View {
 
 }
 
-struct Intro_Previews: PreviewProvider {
+struct EndCircle_Previews: PreviewProvider {
     static var previews: some View {
-        Intro()
+        EndCircle()
     }
 }
